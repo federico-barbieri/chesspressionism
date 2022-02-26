@@ -96,7 +96,7 @@ nav{
 
 #main{
     width: 100vw;
-    max-height: 400vh;
+    height: 360vh;
     background-color: white;
     border: 10px dashed yellow;
 
