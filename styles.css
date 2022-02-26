@@ -114,6 +114,7 @@ nav{
     text-align: center;
     margin: 0 auto;
     grid-area: main1;
+    border: 2px solid magenta;
 }
 
 
@@ -174,6 +175,7 @@ nav{
     text-align: center;
     margin: 0 auto;
     grid-area: main2;
+    border: 2px solid orange;
 }
 
 
@@ -302,6 +304,7 @@ nav{
     justify-content: center;
     grid-area: footer;
     font-size: 1.5rem;
+    border: 2px solid pink;
 }
 
 .rights-footer{
