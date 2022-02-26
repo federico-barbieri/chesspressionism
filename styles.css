@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 110vh 200vh 150vh 100vh 30vh;
+grid-template-rows: 110vh 200vh 120vh 100vh 30vh;
 grid-template-areas: 
 "header"
 "main"
@@ -96,7 +96,7 @@ nav{
 
 #main{
     width: 100vw;
-    min-height: 450vh;
+    min-height: 420vh;
     background-color: white;
     grid-area: main;
 
@@ -166,7 +166,7 @@ nav{
 
 .chessoteric-art{
     width: 100vw;
-    min-height: 150vh;
+    min-height: 120vh;
     background-color: black;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
