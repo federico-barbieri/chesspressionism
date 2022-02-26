@@ -125,10 +125,10 @@ nav{
 .dictionary-p{
     max-width: 90vw;
     
-    margin: 1rem auto 3rem auto;
+    margin: 0rem auto 3rem auto;
     font-size: 1rem;
     text-align: left;
-    padding-left: 2rem;
+    
 }
 
 
@@ -152,7 +152,7 @@ nav{
 
 .dictionary-btn{
  position: absolute;
- transform: translateY(6rem) scale(0.6);
+ transform: translateY(5rem) scale(0.6);
  font-size: 1.5rem;
  font-family: ador-hairline, sans-serif;
  font-weight: 200;
@@ -186,12 +186,12 @@ nav{
 
 .shannon-p{
     max-width: 90vw;
-    height: 5vh;
-    margin: 1rem auto 5rem auto;
-    font-size: 1.5rem;
-    text-align: left;
-    padding-left: 2rem;
+ 
+    
     color: white;
+    margin: 0rem auto 3rem auto;
+    font-size: 1rem;
+    text-align: left;
 }
 
 .shannon-img{
@@ -214,7 +214,7 @@ nav{
 
 .shannon-btn{
  position: absolute;
- transform: translateY(6rem) scale(0.6);
+ transform: translateY(5rem) scale(0.6);
  font-size: 1.5rem;
  font-family: ador-hairline, sans-serif;
  font-weight: 200;
@@ -248,12 +248,10 @@ nav{
 
 .trends-p{
     max-width: 90vw;
-    height: 5vh;
-    margin: 1rem auto 5rem auto;
-    font-size: 1.5rem;
-    text-align: left;
-    padding-left: 2rem;
     color: black;
+    margin: 0rem auto 3rem auto;
+    font-size: 1rem;
+    text-align: left;
 }
 
 .trends-img{
