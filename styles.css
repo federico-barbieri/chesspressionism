@@ -106,7 +106,7 @@ nav{
 
 .chessencials-art{
     width: 100vw;
-    min-height: 250vh;
+    max-height: 250vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -139,7 +139,7 @@ nav{
 .dictionary-img{
     display: block;
     max-width: 70vw;
-    max-height: 50vh;
+    max-height: 40vh;
     margin: 3rem auto 5rem auto;
     border: 1px solid black;
 }
