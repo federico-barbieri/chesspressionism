@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 110vh 220vh 110vh 90vh 30vh;
+grid-template-rows: 110vh 250vh 120vh 90vh 30vh;
 grid-template-areas: 
 "header"
 "main1"
@@ -96,7 +96,7 @@ nav{
 
 #main{
     width: 100vw;
-    min-height: 420vh;
+    min-height: 480vh;
     background-color: white;
     
 
@@ -106,7 +106,7 @@ nav{
 
 .chessencials-art{
     width: 100vw;
-    min-height: 220vh;
+    min-height: 250vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -166,7 +166,7 @@ nav{
 
 .chessoteric-art{
     width: 100vw;
-    min-height: 110vh;
+    min-height: 120vh;
     background-color: black;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -182,7 +182,7 @@ nav{
     min-height: 5vh;
     margin: 0 auto 0rem auto;
     font-size: 2.5rem;
-    padding-top: 8rem;
+    padding-top: 5rem;
     color: white;
 }
 
