@@ -96,17 +96,13 @@ nav{
 
 #main{
     width: 100vw;
-
-    background-color: green;
-    border: 10px dashed yellow;
-
 }
 
 /* CHESSENCIALS ARTICLE */
 
 .chessencials-art{
     width: 100vw;
-    max-height: 120vh;
+    min-height: 120vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -114,7 +110,7 @@ nav{
     text-align: center;
     margin: 0 0;
     grid-area: main1;
-    border: 2px solid magenta;
+
 }
 
 
@@ -167,7 +163,7 @@ nav{
 
 .chessoteric-art{
     width: 100vw;
-    max-height: 120vh;
+    min-height: 120vh;
     background-color: black;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -175,7 +171,7 @@ nav{
     text-align: center;
     margin: 0 auto;
     grid-area: main2;
-    border: 2px solid orange;
+
 }
 
 
@@ -229,7 +225,7 @@ nav{
 
 .chesstrends-art{
     width: 100vw;
-    max-height: 110vh;
+    min-height: 110vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -237,7 +233,7 @@ nav{
     text-align: center;
     margin: 0 auto;
     grid-area: main3;
-    border: 2px solid blue;
+
 }
 
 
@@ -304,7 +300,7 @@ nav{
     justify-content: center;
     grid-area: footer;
     font-size: 1.5rem;
-    border: 2px solid pink;
+
 }
 
 .rights-footer{
