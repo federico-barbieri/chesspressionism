@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 110vh 250vh 120vh 50vh 30vh;
+grid-template-rows: 110vh 120vh 120vh 50vh 30vh;
 grid-template-areas: 
 "header"
 "main1"
@@ -96,7 +96,7 @@ nav{
 
 #main{
     width: 100vw;
-    max-height: 420vh;
+    max-height: 290vh;
     background-color: white;
     border: 2px solid yellow;
 
@@ -106,7 +106,7 @@ nav{
 
 .chessencials-art{
     width: 100vw;
-    max-height: 250vh;
+    max-height: 120vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
