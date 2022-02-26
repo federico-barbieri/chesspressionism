@@ -20,12 +20,12 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 150vh 150vh 120vh 30vh;
+grid-template-rows: 100vh 110vh 110vh 100vh 30vh;
 grid-template-areas: 
 "header"
-"chessencials"
-"chessoteric"
-"chesstrends"
+"main"
+"main"
+"main"
 "footer";
 
 overflow: hidden;
@@ -94,7 +94,7 @@ nav{
     width: 100vw;
     min-height: 300vh;
     background-color: white;
-    
+    grid-area: main;
 
 }
 
