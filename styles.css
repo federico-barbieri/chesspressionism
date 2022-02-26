@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 110vh 110vh 100vh 30vh;
+grid-template-rows: 150vh 150vh 150vh 150vh 30vh;
 grid-template-areas: 
 "header"
 "main"
@@ -37,7 +37,7 @@ margin: 0 auto;
 
 #header{
     width: 100vw;
-    min-height: 100vh;
+    min-height: 150vh;
     background-color: black;
 
     grid-area: header;
@@ -92,7 +92,7 @@ nav{
 
 #main{
     width: 100vw;
-    min-height: 300vh;
+    min-height: 450vh;
     background-color: white;
     grid-area: main;
 
@@ -102,14 +102,14 @@ nav{
 
 .chessencials-art{
     width: 100vw;
-    min-height: 110vh;
+    min-height: 150vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
     text-align: center;
     margin: 0 auto;
-    grid-area: chessencials;
+    
 }
 
 
@@ -174,14 +174,14 @@ nav{
 
 .chessoteric-art{
     width: 100vw;
-    min-height: 110vh;
+    min-height: 150vh;
     background-color: black;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
     text-align: center;
     margin: 0 auto;
-    grid-area: chessoteric;
+    
 }
 
 
@@ -234,7 +234,7 @@ nav{
 
 .chesstrends-art{
     width: 100vw;
-    min-height: 110vh;
+    min-height: 150vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -242,7 +242,7 @@ nav{
     text-align: center;
     margin: 0 auto;
 
-    grid-area: chesstrends;
+    
 }
 
 
