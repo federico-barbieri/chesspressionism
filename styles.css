@@ -73,9 +73,9 @@ nav{
 
 .nav-logo{
     display: inline;
-    max-width: 50vw;
+    max-width: 40vw;
     max-height: 10vh;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 }
 
 .chesspressionism-h1{
