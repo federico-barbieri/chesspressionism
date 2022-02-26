@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 120vh 200vh 150vh 130vh 30vh;
+grid-template-rows: 110vh 200vh 150vh 130vh 30vh;
 grid-template-areas: 
 "header"
 "main"
@@ -37,7 +37,7 @@ margin: 0 auto;
 
 #header{
     width: 100vw;
-    max-height: 120vh;
+    max-height: 110vh;
     background-color: black;
 
     grid-area: header;
@@ -48,7 +48,7 @@ margin: 0 auto;
 nav{
   
     color: white;
-    height: 8rem;
+    height: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
