@@ -96,7 +96,7 @@ nav{
 
 #main{
     width: 100vw;
-    min-height: 500vh;
+    min-height: 450vh;
     background-color: white;
     grid-area: main;
 
