@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 150vh 150vh 150vh 50vh;
+grid-template-rows: 100vh 150vh 150vh 120vh 30vh;
 grid-template-areas: 
 "header"
 "chessencials"
