@@ -23,9 +23,9 @@ grid-template-columns: 1fr;
 grid-template-rows: 110vh 220vh 110vh 90vh 30vh;
 grid-template-areas: 
 "header"
-"main"
-"main"
-"main"
+"main1"
+"main2"
+"main3"
 "footer";
 
 overflow: hidden;
@@ -98,7 +98,7 @@ nav{
     width: 100vw;
     min-height: 420vh;
     background-color: white;
-    grid-area: main;
+    
 
 }
 
@@ -113,7 +113,7 @@ nav{
     font-style: normal;
     text-align: center;
     margin: 0 auto;
-    
+    grid-area: main1;
 }
 
 
@@ -173,7 +173,7 @@ nav{
     font-style: normal;
     text-align: center;
     margin: 0 auto;
-    
+    grid-area: main2;
 }
 
 
@@ -234,7 +234,7 @@ nav{
     font-style: normal;
     text-align: center;
     margin: 0 auto;
-
+    grid-area: main3;
     
 }
 
