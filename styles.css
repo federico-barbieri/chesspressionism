@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 110vh 250vh 120vh 90vh 30vh;
+grid-template-rows: 110vh 250vh 120vh 50vh 30vh;
 grid-template-areas: 
 "header"
 "main1"
@@ -96,7 +96,7 @@ nav{
 
 #main{
     width: 100vw;
-    min-height: 480vh;
+    min-height: 440vh;
     background-color: white;
     
 
@@ -227,7 +227,7 @@ nav{
 
 .chesstrends-art{
     width: 100vw;
-    min-height: 90vh;
+    min-height: 50vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
