@@ -20,7 +20,7 @@ body{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 120vh 150vh 150vh 130vh 30vh;
+grid-template-rows: 120vh 200vh 150vh 130vh 30vh;
 grid-template-areas: 
 "header"
 "main"
@@ -92,7 +92,7 @@ nav{
 
 #main{
     width: 100vw;
-    min-height: 450vh;
+    min-height: 500vh;
     background-color: white;
     grid-area: main;
 
@@ -102,7 +102,7 @@ nav{
 
 .chessencials-art{
     width: 100vw;
-    min-height: 150vh;
+    min-height: 200vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
@@ -115,41 +115,27 @@ nav{
 
 
 .dictionary-h2{
-    min-height: 5vh;
-    margin: 0 auto 0rem auto;
+    
+    margin: 0 auto 2rem auto;
     font-size: 2.5rem;
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 .dictionary-p{
     max-width: 90vw;
-    height: 5vh;
-    margin: 1rem auto 2rem auto;
+    
+    margin: 1rem auto 3rem auto;
     font-size: 1.5rem;
     text-align: left;
     padding-left: 2rem;
 }
 
-.chessencials-vertical{
-    display: inline;
-    position: absolute;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    transform: translate(-9.5rem, 3rem);
-    background-color: grey;
-    color: white;
-    opacity: 50%;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 1rem;
-}
 
 .dictionary-img{
     display: block;
     max-width: 70vw;
     max-height: 50vh;
-    margin: 3rem auto 10rem auto;
+    margin: 3rem auto 5rem auto;
     border: 1px solid black;
 }
 
@@ -165,7 +151,7 @@ nav{
 
 .dictionary-btn{
  position: absolute;
- transform: translateY(8rem);
+ transform: translateY(6rem) scale(0.6);
  font-size: 1.5rem;
  font-family: ador-hairline, sans-serif;
  font-weight: 200;
