@@ -69,17 +69,21 @@ nav{
     transform: translateY(15rem);
     background-color: white;
     margin: 2rem auto;
-    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
-    --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+    /*clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+    --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);*/
+    clip-path: circle(0px);
+    --wekbkit-clip-path: circle(0px);
     opacity: 100%;
     transition: all 1s ease-in;
 }
 
 .nav-ul.open{
-    
+    /*
     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    
+    */
+    clip-path: circle(400px);
+    --wekbkit-clip-path: circle(400px);
     
 }
 
