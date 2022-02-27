@@ -14,18 +14,25 @@ body{
     text-align: center;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
 /* MAIN CONTAINER */
 
 .container{
     display: grid;
-    
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh 100vh 100vh 70vh 30vh;
+    grid-template-rows: 100vh 100vh 100vh 30vh;
     grid-template-areas: 
     "header"
-    "main1"
-    "main2"
-    "main3"
+    "cancel"
+    "board"
     "footer";
     
     overflow: hidden;
@@ -145,7 +152,7 @@ body{
     font-style: normal;
     text-align: center;
     margin: 0 0;
-    grid-area: main1;
+    grid-area: cancel;
 
 }
 
@@ -186,20 +193,21 @@ body{
 .end-of-board-art{
     width: 100vw;
     min-height: 100vh;
-    background-color: white;
+    background-color: black;
+    color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
     text-align: center;
     margin: 0 0;
-    grid-area: main1;
+    grid-area: board;
 
 }
 
 .board-h2{
     
     margin: 0 auto 2rem auto;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     padding-top: 5rem;
 }
 
@@ -225,3 +233,27 @@ body{
     border: 1px solid black;
     color: black;
    }
+
+   /* FOOTER */
+
+.footer{
+  
+    width: 100vw;
+    max-height: 30vh;
+    margin: 0rem 0;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rights-footer{
+    font-size: 1rem;
+}
