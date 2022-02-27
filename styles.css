@@ -69,8 +69,8 @@ nav{
     transform: translateY(15rem);
     background-color: white;
     margin: 2rem auto;
-    clip-path: polygon(0);
-    --wekbkit-clip-path: polygon(0);
+    clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+    --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
     opacity: 100%;
     transition: all 1s ease-in;
 }
