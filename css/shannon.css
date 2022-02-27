@@ -28,7 +28,7 @@ a:visited{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 170vh 30vh;
+    grid-template-rows: 20vh 180vh 30vh;
     grid-template-areas: 
     "header"
     "article"
@@ -133,7 +133,7 @@ a:visited{
 
 .shannon-art{
     width: 100vw;
-    min-height: 170vh;
+    min-height: 180vh;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
