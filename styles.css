@@ -56,19 +56,44 @@ nav{
     
 }
 
-.fa-bars{
-    transform: scale(1.2);
-}
 
 .nav-ul{
     list-style-type: none;
-    max-width: 50vw;
-    height: 8rem;
-    display: none;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    position: fixed;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-right: 2rem;
+    transform: translateY(15rem);
+    background-color: white;
+    margin: 2rem auto;
+    clip-path: circle(0px);
+    --wekbkit-clip-path: circle(0px);
+    opacity: 100%;
+    transition: all 1s ease-in;
+}
+
+.nav-ul.open{
+    
+    clip-path: circle(300px);
+    --wekbkit-clip-path: circle(400px);
+    
+    
+}
+
+.nav-ul li{
+color: black;
+transform: translateX(-1rem);
+
+}
+
+.fa-bars{
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index: 10;
+    color: red;
 }
 
 .nav-logo{
