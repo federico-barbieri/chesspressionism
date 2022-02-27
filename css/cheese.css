@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 120vh 30vh;
+    grid-template-areas: 
+    "header"
+    "article"
+    "footer";
+    
+    overflow: hidden;
+    margin: 0 auto;
+    }
+    
+    
+    /* header */
+    
+    #header{
+        width: 100vw;
+        min-height: 20vh;
+        background-color: black;
+    
+        grid-area: header;
+    }
+    
+    
+    
+    nav{
+      
+        color: white;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    
+    
+    .nav-ul{
+        list-style-type: none;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(10rem);
+        background-color: white;
+        margin: 2rem auto;
+        /*clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+        --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);*/
+        clip-path: circle(0px);
+        --wekbkit-clip-path: circle(0px);
+        opacity: 98%;
+        transition: all 1s ease-in;
+    }
+    
+    .nav-ul.open{
+        /*
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        */
+        clip-path: circle(450px);
+        --wekbkit-clip-path: circle(450px);
+        height: 130vh;
+    }
+    
+    .nav-ul li{
+    color: black;
+    transform: translateX(-1rem);
+    }
+    
+    .chessencials-li{
+        padding-bottom: 5rem;
+    }
+    
+    .chesstrends-li{
+        padding-top: 5rem;
+    }
+    
+    
+    .fa-bars{
+        transform: scale(1.2);
+        cursor: pointer;
+        z-index: 10;
+        color: grey;
+       
+    }
+    
+    .nav-logo{
+        display: inline;
+        max-width: 40vw;
+        max-height: 10vh;
+        
+    }
+    
+
+    /* MAIN */
+
+#main{
+    width: 100vw;
+}
+
+/* CAN YOU CANCEL ARTICLE */
+
+.cheese-art{
+    width: 100vw;
+    min-height: 120vh;
+    background-color: black;
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: article;
+
+}
+
+.cheese-h1{
+        
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    margin: 0rem auto 0rem auto;
+    font-size: 2.7rem;
+}
+
+.cheese-p{
+    max-width: 90vw;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style:italic;
+    margin: 0rem auto 2rem auto;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+   /* FOOTER */
+
+.footer{
+  
+    width: 100vw;
+    max-height: 30vh;
+    margin: 0rem 0;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rights-footer{
+    font-size: 1rem;
+}
