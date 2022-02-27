@@ -92,6 +92,14 @@ color: black;
 transform: translateX(-1rem);
 }
 
+.chessencials-li{
+    padding-bottom: 5rem;
+}
+
+.chesstrends-li{
+    padding-top: 5rem;
+}
+
 
 .fa-bars{
     transform: scale(1.2);
