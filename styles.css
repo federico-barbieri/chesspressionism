@@ -77,7 +77,7 @@ nav{
 
 .nav-ul.open{
     
-    clip-path: circle(300px);
+    clip-path: circle(400px);
     --wekbkit-clip-path: circle(400px);
     
     
