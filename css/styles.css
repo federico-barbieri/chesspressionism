@@ -29,7 +29,7 @@ a:visited{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 100vh 100vh 70vh 30vh;
+grid-template-rows: 100vh 100vh 100vh 80vh 30vh;
 grid-template-areas: 
 "header"
 "main1"
@@ -298,7 +298,7 @@ transform: translateX(-1rem);
 
 .chesstrends-art{
     width: 100vw;
-    min-height: 70vh;
+    min-height: 80vh;
     background-color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
