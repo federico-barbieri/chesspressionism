@@ -166,7 +166,7 @@ a:visited{
     margin: 0rem auto 2rem auto;
     font-size: 1.2rem;
     text-align: left;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 
