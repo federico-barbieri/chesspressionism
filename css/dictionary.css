@@ -28,7 +28,7 @@ a:visited{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 350vh 30vh;
+    grid-template-rows: 20vh 365vh 30vh;
     grid-template-areas: 
     "header"
     "article"
@@ -162,7 +162,7 @@ a:visited{
 .cancel-p{
     max-width: 90vw;
     
-    margin: 0rem auto 2rem auto;
+    margin: 0rem auto 5rem auto;
     font-size: 1.2rem;
     text-align: left;
 }
