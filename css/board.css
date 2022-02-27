@@ -28,7 +28,7 @@ a:visited{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 300vh 30vh;
+    grid-template-rows: 20vh 330vh 30vh;
     grid-template-areas: 
     "header"
     "article"
@@ -133,7 +133,7 @@ a:visited{
 
 .board-art{
     width: 100vw;
-    min-height: 300vh;
+    min-height: 330vh;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
