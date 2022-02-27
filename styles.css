@@ -90,7 +90,14 @@ nav{
 .nav-ul li{
 color: black;
 transform: translateX(-1rem);
+}
 
+.chessencials-li{
+    transform: translateY(3rem);
+}
+
+.chesstrends-li{
+    transform: translateY(-3rem);
 }
 
 .fa-bars{
