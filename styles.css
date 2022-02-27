@@ -60,7 +60,7 @@ nav{
 .nav-ul{
     list-style-type: none;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     position: fixed;
     flex-direction: column;
