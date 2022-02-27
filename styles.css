@@ -73,7 +73,7 @@ nav{
     --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);*/
     clip-path: circle(0px);
     --wekbkit-clip-path: circle(0px);
-    opacity: 100%;
+    opacity: 95%;
     transition: all 1s ease-in;
 }
 
@@ -84,7 +84,7 @@ nav{
     */
     clip-path: circle(400px);
     --wekbkit-clip-path: circle(400px);
-    height: 100vh;
+    height: 110vh;
 }
 
 .nav-ul li{
