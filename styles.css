@@ -82,8 +82,8 @@ nav{
     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     */
-    clip-path: circle(400px);
-    --wekbkit-clip-path: circle(400px);
+    clip-path: circle(450px);
+    --wekbkit-clip-path: circle(450px);
     height: 130vh;
 }
 
