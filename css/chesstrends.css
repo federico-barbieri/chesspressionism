@@ -31,8 +31,8 @@ a:visited{
     grid-template-rows: 100vh 100vh 100vh 30vh;
     grid-template-areas: 
     "header"
-    "shannon"
-    "born"
+    "cheese"
+    "martini"
     "footer";
     
     overflow: hidden;
@@ -123,7 +123,7 @@ a:visited{
         
     }
     
-    .chessoteric-h1{
+    .chesstrends-h1{
         
         color: white;
         font-family: ador-hairline, sans-serif;
@@ -143,7 +143,7 @@ a:visited{
 
 /* CAN YOU CANCEL ARTICLE */
 
-.shannon-art{
+.cheese-art{
     width: 100vw;
     min-height: 100vh;
     background-color: white;
@@ -152,20 +152,20 @@ a:visited{
     font-style: normal;
     text-align: center;
     margin: 0 0;
-    grid-area: shannon;
+    grid-area: cheese;
 
 }
 
 
 
-.shannon-h2{
+.cheese-h2{
     
     margin: 0 auto 2rem auto;
     font-size: 2.5rem;
     padding-top: 5rem;
 }
 
-.shannon-p{
+.cheese-p{
     max-width: 90vw;
     
     margin: 0rem auto 2rem auto;
@@ -175,7 +175,7 @@ a:visited{
 }
 
 
-.shannon-btn{
+.cheese-btn{
 
     font-size: 1.5rem;
     font-family: ador-hairline, sans-serif;
@@ -190,7 +190,7 @@ a:visited{
 
    /* END OF THE BOARD ARTICLE */
 
-.born-art{
+.martini-art{
     width: 100vw;
     min-height: 100vh;
     background-color: black;
@@ -200,18 +200,18 @@ a:visited{
     font-style: normal;
     text-align: center;
     margin: 0 0;
-    grid-area: born;
+    grid-area: martini;
 
 }
 
-.born-h2{
+.martini-h2{
     
     margin: 0 auto 2rem auto;
     font-size: 2.3rem;
     padding-top: 5rem;
 }
 
-.born-p{
+.martini-p{
     max-width: 90vw;
     
     margin: 0rem auto 2rem auto;
@@ -221,7 +221,7 @@ a:visited{
 }
 
 
-.born-btn{
+.martini-btn{
 
     font-size: 1.5rem;
     font-family: ador-hairline, sans-serif;
