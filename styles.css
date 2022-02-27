@@ -357,7 +357,7 @@ transform: translateX(-1rem);
     width: 100vw;
     max-height: 30vh;
     margin: 0rem 0;
-    background-color: #EFEFEF;
+    background-color: black;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -367,7 +367,7 @@ transform: translateX(-1rem);
     justify-content: center;
     grid-area: footer;
     font-size: 1.5rem;
-
+    color: white;
 }
 
 .rights-footer{
