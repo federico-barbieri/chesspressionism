@@ -57,7 +57,7 @@ margin: 0 auto;
 nav{
   
     color: white;
-    height: 5rem;
+    height: 15vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -78,8 +78,7 @@ nav{
     transform: translateY(10rem);
     background-color: white;
     margin: 2rem auto;
-    /*clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
-    --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);*/
+
     clip-path: circle(0px);
     --wekbkit-clip-path: circle(0px);
     opacity: 98%;
@@ -87,10 +86,7 @@ nav{
 }
 
 .nav-ul.open{
-    /*
-    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    */
+
     clip-path: circle(450px);
     --wekbkit-clip-path: circle(450px);
     height: 130vh;
@@ -390,3 +386,68 @@ transform: translateX(-1rem);
 .rights-footer{
     font-size: 1rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 700px){
+    nav{
+        color: white;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid red;
+    }
+    .nav-logo{
+        display: inline;
+        max-width: 25vw;
+        max-height: 10vh;
+        padding-top: 1.5rem;
+        border: 2px solid green;
+    }
+    .nav-ul{
+        list-style-type: none;
+        max-width: 60vw;
+        height: 4rem;
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        clip-path: none;
+        --webkit-clip-path: none;
+        transition: none;
+        background-color: transparent;
+        color: white;
+        opacity: 100%;
+        border: 2px solid yellow;
+        transform: translateY(0rem);
+        margin: 0rem 0rem 0rem 0rem;
+
+    }
+
+
+    .fa-bars{
+        display: none;
+    }
+    .nav-ul.open{
+        display: none;
+    }
+    .nav-ul li{
+        color: white;
+        transform: none;
+        font-size: 1rem;
+        }
+        
+        .chessencials-li{
+            padding-bottom: 0rem;
+        }
+        
+        .chesstrends-li{
+            padding-top: 0rem;
+        }
+
+}
+
