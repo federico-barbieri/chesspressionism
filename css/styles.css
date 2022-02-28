@@ -117,7 +117,7 @@ transform: translateX(-1rem);
 .nav-logo{
     display: inline;
     max-width: 40vw;
-    max-height: 10vh;
+    max-height: 8vh;
     
 }
 
@@ -337,14 +337,14 @@ transform: translateX(-1rem);
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        border: 2px solid red;
+    
     }
     .nav-logo{
         display: inline;
         max-width: 25vw;
         max-height: 10vh;
-        padding-top: 1.5rem;
-        border: 2px solid green;
+        padding-top: 0.6rem;
+  
     }
     .nav-ul{
         list-style-type: none;
@@ -362,7 +362,7 @@ transform: translateX(-1rem);
         background-color: transparent;
         color: white;
         opacity: 100%;
-        border: 2px solid yellow;
+
         transform: translateY(0rem);
         margin: 0rem 0rem 0rem 0rem;
 
@@ -379,6 +379,7 @@ transform: translateX(-1rem);
         color: white;
         transform: none;
         font-size: 1rem;
+        transform: translateX(0rem);
         }
         
     .chessencials-li{
@@ -547,4 +548,251 @@ transform: translateX(-1rem);
 
 
 }
+
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+
+
+@media screen and (min-width: 1100px){
+
+    /* CONTAINER */
+    
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100vh 80vh 80vh 80vh 30vh;
+        grid-template-areas: 
+        "header"
+        "main1"
+        "main2"
+        "main3"
+        "footer";
+        
+        overflow: hidden;
+        margin: 0 auto;
+        }
+    
+    /* HEADER */
+    
+        nav{
+            color: white;
+            height: 15vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .nav-logo{
+            display: inline;
+            max-width: 25vw;
+            max-height: 10vh;
+            padding-top: 0.6rem;
+
+        }
+        .nav-ul{
+            list-style-type: none;
+            max-width: 60vw;
+            height: 4rem;
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            clip-path: none;
+            --webkit-clip-path: none;
+            transition: none;
+            background-color: transparent;
+            color: white;
+            opacity: 100%;
+
+            transform: translateY(0rem);
+            margin: 0rem 0rem 0rem 0rem;
+    
+        }
+    
+    
+        .fa-bars{
+            display: none;
+        }
+        .nav-ul.open{
+            display: none;
+        }
+        .nav-ul li{
+            color: white;
+            transform: none;
+            font-size: 1rem;
+            transform: translateX(0rem);
+            }
+            
+        .chessencials-li{
+                padding-bottom: 0rem;
+                
+            }
+            
+        .chesstrends-li{
+                padding-top: 0rem;
+
+            }
+        
+        .chesspressionism-h1{
+        
+                color: white;
+                font-family: ador-hairline, sans-serif;
+                font-weight: 200;
+                font-style: normal;
+                text-align: center;
+                
+                margin: 7rem auto 0rem auto;
+                font-size: 5rem;
+            }
+        
+    
+    
+    /* MAIN */
+    
+    /* DICTIONARY ARTICLE */
+    
+    .chessencials-art{
+        width: 100vw;
+        min-height: 80vh;
+        background-color: white;
+        font-family: ador-hairline, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+        margin: 0 0;
+        grid-area: main1;
+    
+    }
+    
+    
+    
+    .dictionary-h2{
+        
+        margin: 0 auto 2rem auto;
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    
+    .dictionary-p{
+        max-width: 85vw;
+        margin: 0rem auto 2rem auto;
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    
+    .dictionaryy-btn{
+    
+        font-size: 1.8rem;
+        font-family: ador-hairline, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        margin: 4rem auto 1rem auto;
+        background-color: transparent;
+        padding: 1rem 2rem;
+        border: 1px solid black;
+        color: black;
+       }
+    
+    /* SHANNON ARTICLE */
+    
+    .chessoteric-art{
+        width: 100vw;
+        min-height: 80vh;
+        background-color: black;
+        font-family: ador-hairline, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+        margin: 0 auto;
+        grid-area: main2;
+    
+    }
+    
+    .shannon-h2{
+        min-height: 5vh;
+        margin: 0 auto 2rem auto;
+        font-size: 4rem;
+        padding-top: 5rem;
+        color: white;
+    }
+    
+    .shannon-p{
+        max-width: 70vw;
+     
+        
+        color: white;
+        margin: 0rem auto 3rem auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    
+    .shannonn-btn{
+    
+        font-size: 1.8rem;
+        font-family: ador-hairline, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        margin: 4rem auto 1rem auto;
+        background-color: transparent;
+        padding: 1rem 2rem;
+        color: white;
+        border: 1px solid white;
+       }
+    
+    
+    /* CHEESE ARTICLE */
+    
+    .chesstrends-art{
+        width: 100vw;
+        min-height: 80vh;
+        background-color: white;
+        font-family: ador-hairline, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+        margin: 0 auto;
+        grid-area: main3;
+    
+    }
+    
+    
+    
+    .trends-h2{
+        min-height: 5vh;
+        margin: 0rem auto 2rem auto;
+        font-size: 4rem;
+        color: black;
+        padding-top: 5rem;
+    
+    }
+    
+    .trends-p{
+        max-width: 85vw;
+        color: black;
+        margin: 0rem auto 3rem auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .trendss-btn{
+    
+        font-size: 1.8rem;
+        font-family: ador-hairline, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        margin: 4rem auto 1rem auto;
+        background-color: transparent;
+        padding: 1rem 2rem;
+        color: black;
+        border: 1px solid black;
+       }
+    
+    
+    }
 
