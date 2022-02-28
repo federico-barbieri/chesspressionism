@@ -28,7 +28,7 @@ a:visited{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 345vh 30vh;
+    grid-template-rows: 20vh auto 20vh;
     grid-template-areas: 
     "header"
     "article"
@@ -133,7 +133,7 @@ a:visited{
 
 .can-you-cancel-art{
     width: 100vw;
-    min-height: 345vh;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
@@ -210,7 +210,7 @@ a:visited{
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20vh 290vh 20vh;
+        grid-template-rows: 20vh auto 20vh;
         grid-template-areas: 
         "header"
         "article"
@@ -288,7 +288,7 @@ nav{
 
 .can-you-cancel-art{
     width: 100vw;
-    min-height: 290vh;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
@@ -357,7 +357,7 @@ nav{
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20vh 330vh 20vh;
+        grid-template-rows: 20vh auto 20vh;
         grid-template-areas: 
         "header"
         "article"
@@ -435,7 +435,7 @@ nav{
 
 .can-you-cancel-art{
     width: 100vw;
-    min-height: 330vh;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;

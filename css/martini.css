@@ -28,7 +28,7 @@ a:visited{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 200vh 30vh;
+    grid-template-rows: 20vh auto 20vh;
     grid-template-areas: 
     "header"
     "article"
@@ -119,7 +119,7 @@ a:visited{
         display: inline;
         max-width: 40vw;
         max-height: 10vh;
-        
+        padding-top: 1rem;
     }
     
 
@@ -133,16 +133,16 @@ a:visited{
 
 .martini-art{
     width: 100vw;
-    min-height: 200vh;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
     text-align: center;
-    margin: 0 0;
+    margin: 0 0 0rem 0;
     grid-area: article;
-
+    padding-bottom: 5rem;
 }
 
 .martini-h1{
@@ -191,7 +191,7 @@ a:visited{
 .footer{
   
     width: 100vw;
-    max-height: 30vh;
+    max-height: 20vh;
     margin: 0rem 0;
     background-color: white;
     font-family: ador-hairline, sans-serif;
@@ -223,7 +223,7 @@ a:visited{
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20vh 160vh 20vh;
+        grid-template-rows: 20vh auto 20vh;
         grid-template-areas: 
         "header"
         "article"
@@ -243,14 +243,14 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid red;
+
 }
 .nav-logo{
     display: inline;
     max-width: 25vw;
     max-height: 10vh;
-    padding-top: 1.5rem;
-    border: 2px solid green;
+    padding-top: 0.6rem;
+
 }
 .nav-ul{
     list-style-type: none;
@@ -268,7 +268,7 @@ nav{
     background-color: transparent;
     color: white;
     opacity: 100%;
-    border: 2px solid yellow;
+
     transform: translateY(0rem);
     margin: 0rem 0rem 0rem 0rem;
 
@@ -301,7 +301,7 @@ nav{
 
 .martini-art{
     width: 100vw;
-    min-height: 160vh;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
@@ -339,6 +339,162 @@ nav{
     width: 10rem;
     min-height: 12rem;
     font-size: 1.5rem;
+}
+
+
+
+
+
+  /* FOOTER */
+
+  .footer{
+  
+    width: 100vw;
+    max-height: 20vh;
+    margin: 0rem 0;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rights-footer{
+    font-size: 1rem;
+}
+
+}
+
+@media screen and (min-width: 1100px){
+
+    /* CONTAINER */
+    
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20vh auto 20vh;
+        grid-template-areas: 
+        "header"
+        "article"
+        "footer";
+        
+        overflow: hidden;
+        margin: 0 auto;
+        }
+
+
+/* HEADER */
+
+nav{
+    color: white;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-logo{
+    display: inline;
+    max-width: 25vw;
+    max-height: 10vh;
+    padding-top: 0.6rem;
+
+}
+.nav-ul{
+    list-style-type: none;
+    max-width: 60vw;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    clip-path: none;
+    --webkit-clip-path: none;
+    transition: none;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+
+    transform: translateY(0rem);
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+
+.fa-bars{
+    display: none;
+}
+.nav-ul.open{
+    display: none;
+}
+.nav-ul li{
+    color: white;
+    transform: none;
+    font-size: 1rem;
+    }
+    
+.chessencials-li{
+        padding-bottom: 0rem;
+    }
+    
+.chesstrends-li{
+        padding-top: 0rem;
+    }
+
+/* MAIN */
+
+/* martini ARTICLE */
+
+.martini-art{
+    width: 100vw;
+    min-height: auto;
+    background-color: black;
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: article;
+
+}
+
+.martini-h1{
+    
+    margin: 0 auto 2rem auto;
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+.martini-p{
+    max-width: 85vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.martini-ul{
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 1rem auto 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 15rem;
+    min-height: 12rem;
+    font-size: 2rem;
 }
 
 

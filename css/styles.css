@@ -29,7 +29,7 @@ a:visited{
 display: grid;
 
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 100vh 100vh 80vh 30vh;
+grid-template-rows: 100vh 100vh 100vh 80vh 20vh;
 grid-template-areas: 
 "header"
 "main1"
@@ -118,7 +118,7 @@ transform: translateX(-1rem);
     display: inline;
     max-width: 40vw;
     max-height: 8vh;
-    
+    padding-top: 1rem;
 }
 
 .chesspressionism-h1{
@@ -285,7 +285,7 @@ transform: translateX(-1rem);
 .footer{
   
     width: 100vw;
-    max-height: 30vh;
+    max-height: 20vh;
     margin: 0rem 0;
     background-color: black;
     font-family: ador-hairline, sans-serif;
@@ -316,7 +316,7 @@ transform: translateX(-1rem);
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh 80vh 80vh 80vh 30vh;
+    grid-template-rows: 100vh 80vh 80vh 80vh 20vh;
     grid-template-areas: 
     "header"
     "main1"
@@ -398,8 +398,8 @@ transform: translateX(-1rem);
             font-style: normal;
             text-align: center;
             
-            margin: 7rem auto 0rem auto;
-            font-size: 4rem;
+            margin: 9rem auto 0rem auto;
+            font-size: 5rem;
         }
     
 
@@ -426,8 +426,8 @@ transform: translateX(-1rem);
 .dictionary-h2{
     
     margin: 0 auto 2rem auto;
-    font-size: 3rem;
-    padding-top: 5rem;
+    font-size: 4rem;
+    padding-top: 8rem;
 }
 
 .dictionary-p{
@@ -469,15 +469,13 @@ transform: translateX(-1rem);
 .shannon-h2{
     min-height: 5vh;
     margin: 0 auto 2rem auto;
-    font-size: 3rem;
-    padding-top: 5rem;
+    font-size: 4rem;
+    padding-top: 10rem;
     color: white;
 }
 
 .shannon-p{
     max-width: 70vw;
- 
-    
     color: white;
     margin: 0rem auto 3rem auto;
     font-size: 1.5rem;
@@ -519,9 +517,9 @@ transform: translateX(-1rem);
 .trends-h2{
     min-height: 5vh;
     margin: 0rem auto 2rem auto;
-    font-size: 3rem;
+    font-size: 4rem;
     color: black;
-    padding-top: 5rem;
+    padding-top: 10rem;
 
 }
 
@@ -561,7 +559,7 @@ transform: translateX(-1rem);
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 100vh 80vh 80vh 80vh 30vh;
+        grid-template-rows: 100vh 80vh 80vh 80vh 20vh;
         grid-template-areas: 
         "header"
         "main1"
@@ -645,8 +643,8 @@ transform: translateX(-1rem);
                 font-style: normal;
                 text-align: center;
                 
-                margin: 7rem auto 0rem auto;
-                font-size: 5rem;
+                margin: 6rem auto 0rem auto;
+                font-size: 8rem;
             }
         
     
@@ -673,8 +671,8 @@ transform: translateX(-1rem);
     .dictionary-h2{
         
         margin: 0 auto 2rem auto;
-        font-size: 4rem;
-        padding-top: 5rem;
+        font-size: 5rem;
+        padding-top: 7rem;
     }
     
     .dictionary-p{
@@ -716,8 +714,8 @@ transform: translateX(-1rem);
     .shannon-h2{
         min-height: 5vh;
         margin: 0 auto 2rem auto;
-        font-size: 4rem;
-        padding-top: 5rem;
+        font-size: 5rem;
+        padding-top: 9rem;
         color: white;
     }
     
@@ -766,9 +764,9 @@ transform: translateX(-1rem);
     .trends-h2{
         min-height: 5vh;
         margin: 0rem auto 2rem auto;
-        font-size: 4rem;
+        font-size: 5rem;
         color: black;
-        padding-top: 5rem;
+        padding-top: 7rem;
     
     }
     

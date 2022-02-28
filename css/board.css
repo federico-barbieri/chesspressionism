@@ -28,7 +28,7 @@ a:visited{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh auto 30vh;
+    grid-template-rows: 20vh auto 20vh;
     grid-template-areas: 
     "header"
     "article"
@@ -186,7 +186,7 @@ a:visited{
 .footer{
   
     width: 100vw;
-    max-height: 30vh;
+    max-height: 20vh;
     margin: 0rem 0;
     background-color: white;
     font-family: ador-hairline, sans-serif;
@@ -296,7 +296,7 @@ nav{
 
 .board-art{
     width: 100vw;
-    height: auto;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
@@ -452,7 +452,7 @@ nav{
 
 .board-art{
     width: 100vw;
-    height: auto;
+    min-height: auto;
     background-color: black;
     color: white;
     font-family: ador-hairline, sans-serif;
