@@ -216,6 +216,340 @@ font-size: 3rem;
 
 .img-inside{
     display: block;
+    max-width: 15rem;
+    min-height: 40vh;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+}
+
+/* first animation */
+
+@keyframes example1 {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+.number5{
+    
+    animation: example1; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.number4{
+    
+    animation: example1; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+
+}
+
+.number3{
+    
+    animation: example1; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+/* second animation */ 
+
+
+@keyframes example2 {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+.number10{
+    
+    animation: example2; 
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+    animation-fill-mode: backwards;
+    
+}
+
+.number8{
+    
+    animation: example2; 
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
+    
+}
+
+.number6{
+    
+    animation: example2; 
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+    
+}
+
+/* FIRST HR */
+
+.first-hr{
+    width: 50%;
+    height: 0.1rem;
+    margin: 2rem auto;
+}
+
+
+/* FORBIDDEN NUMBER */
+
+/* picture and text */
+
+.numb-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+}
+
+
+/* text */
+
+.forbidden-num{
+
+    font-size: 3rem;
+
+
+}
+
+/* image container */
+
+.nummer{
+    width: 80vw;
+    height: 50vh;
+    overflow: hidden;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+/* images inside */
+
+.img-nummer-ins{
+    display: block;
+    max-width: 15rem;
+    min-height: 40vh;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+}
+
+ /* FOOTER */
+
+ .footer{
+  
+    width: 100vw;
+    max-height: 20vh;
+    margin: 0rem 0;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rights-footer{
+    font-size: 1rem;
+}
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 700px){
+
+    /* CONTAINER */
+    
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20vh auto 20vh;
+        grid-template-areas: 
+        "header"
+        "article"
+        "footer";
+        
+        overflow: hidden;
+        margin: 0 auto;
+        }
+
+
+/* HEADER */
+
+nav{
+    color: white;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-logo{
+    display: inline;
+    max-width: 25vw;
+    max-height: 10vh;
+    padding-top: 0.6rem;
+
+}
+.nav-ul{
+    list-style-type: none;
+    max-width: 60vw;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    clip-path: none;
+    --webkit-clip-path: none;
+    transition: none;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+  
+    transform: translateY(0rem);
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+
+.fa-bars{
+    display: none;
+}
+.nav-ul.open{
+    display: none;
+}
+.nav-ul li{
+    color: white;
+    transform: none;
+    font-size: 1rem;
+    }
+    
+.chessencials-li{
+        padding-bottom: 0rem;
+    }
+    
+.chesstrends-li{
+        padding-top: 0rem;
+    }
+
+/* MAIN */
+
+/* nft ARTICLE */
+
+.nft-art{
+    width: 100vw;
+    min-height: auto;
+    background-color: black;
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: article;
+
+}
+
+.nft-h1{
+    
+    margin: 0 auto 2rem auto;
+    font-size: 4rem;
+    padding-top: 5rem;
+}
+
+.nft-p{
+    max-width: 85vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+
+/* ORIGINAL SIN */ 
+
+/* img AND text */
+
+.pawn-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+}
+
+/* original sin text */
+
+.original-sin{
+font-size: 3rem;
+}
+
+/* img container */
+
+.img-cont{
+    width: 80vw;
+    height: 50vh;
+    overflow: hidden;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* images inside */
+
+.img-inside{
+    display: block;
     max-width: 25rem;
     min-height: 45vh;
     position: absolute;
@@ -366,148 +700,6 @@ font-size: 3rem;
     border: none;
 }
 
- /* FOOTER */
-
- .footer{
-  
-    width: 100vw;
-    max-height: 20vh;
-    margin: 0rem 0;
-    background-color: white;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    grid-area: footer;
-    font-size: 1.5rem;
-    color: black;
-}
-
-.rights-footer{
-    font-size: 1rem;
-}
-
-
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-
-@media screen and (min-width: 700px){
-
-    /* CONTAINER */
-    
-    
-    .container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 20vh auto 20vh;
-        grid-template-areas: 
-        "header"
-        "article"
-        "footer";
-        
-        overflow: hidden;
-        margin: 0 auto;
-        }
-
-
-/* HEADER */
-
-nav{
-    color: white;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-}
-.nav-logo{
-    display: inline;
-    max-width: 25vw;
-    max-height: 10vh;
-    padding-top: 0.6rem;
-
-}
-.nav-ul{
-    list-style-type: none;
-    max-width: 60vw;
-    height: 4rem;
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    clip-path: none;
-    --webkit-clip-path: none;
-    transition: none;
-    background-color: transparent;
-    color: white;
-    opacity: 100%;
-  
-    transform: translateY(0rem);
-    margin: 0rem 0rem 0rem 0rem;
-
-}
-
-
-.fa-bars{
-    display: none;
-}
-.nav-ul.open{
-    display: none;
-}
-.nav-ul li{
-    color: white;
-    transform: none;
-    font-size: 1rem;
-    }
-    
-.chessencials-li{
-        padding-bottom: 0rem;
-    }
-    
-.chesstrends-li{
-        padding-top: 0rem;
-    }
-
-/* MAIN */
-
-/* nft ARTICLE */
-
-.nft-art{
-    width: 100vw;
-    min-height: auto;
-    background-color: black;
-    color: white;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-align: center;
-    margin: 0 0;
-    grid-area: article;
-
-}
-
-.nft-h1{
-    
-    margin: 0 auto 2rem auto;
-    font-size: 4rem;
-    padding-top: 5rem;
-}
-
-.nft-p{
-    max-width: 85vw;
-    margin: 0rem auto 2rem auto;
-    font-size: 1.5rem;
-    text-align: center;
-    
-}
-
 
   /* FOOTER */
 
@@ -651,6 +843,198 @@ nav{
     font-size: 2rem;
     text-align: center;
  
+}
+
+
+/* ORIGINAL SIN */ 
+
+/* img AND text */
+
+.pawn-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+}
+
+/* original sin text */
+
+.original-sin{
+font-size: 3rem;
+}
+
+/* img container */
+
+.img-cont{
+    width: 80vw;
+    height: 50vh;
+    overflow: hidden;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* images inside */
+
+.img-inside{
+    display: block;
+    max-width: 25rem;
+    min-height: 45vh;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+}
+
+/* first animation */
+
+@keyframes example1 {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+.number5{
+    
+    animation: example1; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.number4{
+    
+    animation: example1; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+
+}
+
+.number3{
+    
+    animation: example1; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+/* second animation */ 
+
+
+@keyframes example2 {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+.number10{
+    
+    animation: example2; 
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+    animation-fill-mode: backwards;
+    
+}
+
+.number8{
+    
+    animation: example2; 
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
+    
+}
+
+.number6{
+    
+    animation: example2; 
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+    
+}
+
+/* FIRST HR */
+
+.first-hr{
+    width: 50%;
+    height: 0.1rem;
+    margin: 2rem auto;
+}
+
+
+/* FORBIDDEN NUMBER */
+
+/* picture and text */
+
+.numb-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+}
+
+
+/* text */
+
+.forbidden-num{
+
+    font-size: 3rem;
+
+
+}
+
+/* image container */
+
+.nummer{
+    width: 80vw;
+    height: 50vh;
+    overflow: hidden;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+/* images inside */
+
+.img-nummer-ins{
+    display: block;
+    max-width: 25rem;
+    min-height: 45vh;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
 }
 
 
