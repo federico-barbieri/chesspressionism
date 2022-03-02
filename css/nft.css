@@ -390,3 +390,296 @@ font-size: 3rem;
     font-size: 1rem;
 }
 
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 700px){
+
+    /* CONTAINER */
+    
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20vh auto 20vh;
+        grid-template-areas: 
+        "header"
+        "article"
+        "footer";
+        
+        overflow: hidden;
+        margin: 0 auto;
+        }
+
+
+/* HEADER */
+
+nav{
+    color: white;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-logo{
+    display: inline;
+    max-width: 25vw;
+    max-height: 10vh;
+    padding-top: 0.6rem;
+
+}
+.nav-ul{
+    list-style-type: none;
+    max-width: 60vw;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    clip-path: none;
+    --webkit-clip-path: none;
+    transition: none;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+  
+    transform: translateY(0rem);
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+
+.fa-bars{
+    display: none;
+}
+.nav-ul.open{
+    display: none;
+}
+.nav-ul li{
+    color: white;
+    transform: none;
+    font-size: 1rem;
+    }
+    
+.chessencials-li{
+        padding-bottom: 0rem;
+    }
+    
+.chesstrends-li{
+        padding-top: 0rem;
+    }
+
+/* MAIN */
+
+/* nft ARTICLE */
+
+.nft-art{
+    width: 100vw;
+    min-height: auto;
+    background-color: black;
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: article;
+
+}
+
+.nft-h1{
+    
+    margin: 0 auto 2rem auto;
+    font-size: 4rem;
+    padding-top: 5rem;
+}
+
+.nft-p{
+    max-width: 85vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+
+  /* FOOTER */
+
+  .footer{
+  
+    width: 100vw;
+    max-height: 20vh;
+    margin: 0rem 0;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rights-footer{
+    font-size: 1rem;
+}
+
+}
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1100px){
+
+    /* CONTAINER */
+    
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20vh auto 20vh;
+        grid-template-areas: 
+        "header"
+        "article"
+        "footer";
+        
+        overflow: hidden;
+        margin: 0 auto;
+        }
+
+
+/* HEADER */
+
+nav{
+    color: white;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-logo{
+    display: inline;
+    max-width: 25vw;
+    max-height: 10vh;
+    padding-top: 1.5rem;
+
+}
+.nav-ul{
+    list-style-type: none;
+    max-width: 60vw;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    clip-path: none;
+    --webkit-clip-path: none;
+    transition: none;
+    background-color: transparent;
+    color: white;
+    opacity: 100%;
+
+    transform: translateY(0rem);
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+
+.fa-bars{
+    display: none;
+}
+.nav-ul.open{
+    display: none;
+}
+.nav-ul li{
+    color: white;
+    transform: none;
+    font-size: 1rem;
+    }
+    
+.chessencials-li{
+        padding-bottom: 0rem;
+    }
+    
+.chesstrends-li{
+        padding-top: 0rem;
+    }
+
+/* MAIN */
+
+/* nft ARTICLE */
+
+.nft-art{
+    width: 100vw;
+    min-height: auto;
+    background-color: black;
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: article;
+
+}
+
+.nft-h1{
+    
+    margin: 0 auto 0rem auto;
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+.nft-p{
+    max-width: 85vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 2rem;
+    text-align: center;
+ 
+}
+
+
+
+
+
+  /* FOOTER */
+
+  .footer{
+  
+    width: 100vw;
+    max-height: 20vh;
+    margin: 0rem 0;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rights-footer{
+    font-size: 1rem;
+}
+
+}
+
