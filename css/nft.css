@@ -23,13 +23,13 @@ a:visited{
     color: inherit;
 }
 
- /* CONTAINER */
-    
-    
- .container{
+
+/* MAIN CONTAINER */
+
+.container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 250vh 20vh;
+    grid-template-rows: 20vh auto 20vh;
     grid-template-areas: 
     "header"
     "article"
@@ -37,147 +37,193 @@ a:visited{
     
     overflow: hidden;
     margin: 0 auto;
-    
     }
-
-
-/* HEADER */
-
-#header{
-    width: 100vw;
-    min-height: 20vh;
-    background-color: black;
-
-    grid-area: header;
-}
-
-nav{
-color: white;
-height: 15vh;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-
-}
-
-.nav-logo{
-display: inline;
-max-width: 25vw;
-max-height: 10vh;
-padding-top: 0.6rem;
-
-}
-.nav-ul{
-list-style-type: none;
-width: 50vw;
-height: 4rem;
-display: flex;
-position: relative;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-margin: 0 auto;
-clip-path: none;
---webkit-clip-path: none;
-transition: none;
-background-color: transparent;
-color: white;
-opacity: 100%;
-
-transform: translateY(0rem);
-margin: 0rem 0rem 0rem 0rem;
-
-}
-
-
-.fa-bars{
-display: none;
-}
-.nav-ul.open{
-display: none;
-}
-.nav-ul li{
-color: white;
-transform: none;
-font-size: 1rem;
-}
-
-.chessencials-li{
-    padding-bottom: 0rem;
-}
-
-.chesstrends-li{
-    padding-top: 0rem;
-}
-
+    
+    
+    /* header */
+    
+    #header{
+        width: 100vw;
+        min-height: 20vh;
+        background-color: black;
+    
+        grid-area: header;
+    }
+    
+    
+    
+    nav{
+      
+        color: white;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    
+    
+    .nav-ul{
+        list-style-type: none;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(10rem);
+        background-color: white;
+        margin: 2rem auto;
+        /*clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+        --wekbkit-clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);*/
+        clip-path: circle(0px);
+        --wekbkit-clip-path: circle(0px);
+        opacity: 98%;
+        transition: all 1s ease-in;
+    }
+    
+    .nav-ul.open{
+        /*
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        */
+        clip-path: circle(850px);
+        --wekbkit-clip-path: circle(850px);
+        height: 130vh;
+        z-index: 50;
+    }
+    
+    .nav-ul li{
+    color: black;
+    transform: translateX(-1rem);
+    }
+    
+    .chessencials-li{
+        padding-bottom: 5rem;
+    }
+    
+    .chesstrends-li{
+        padding-top: 5rem;
+    }
+    
+    
+    .fa-bars{
+        transform: scale(1.2);
+        cursor: pointer;
+        z-index: 70;
+        color: grey;
+       
+    }
+    
+    .nav-logo{
+        display: inline;
+        max-width: 40vw;
+        max-height: 10vh;
+        padding-top: 1rem;
+    }
+    
 
     /* MAIN */
 
-    #main{
-        width: 100vw;
-    }
+#main{
+    width: 100vw;
+}
 
-/* NFT COLLECTION */
+/* CAN YOU CANCEL ARTICLE */
 
 .nft-art{
-width: 100vw;
-min-height: 250vh;
-background-color: black;
-color: white;
-font-family: ador-hairline, sans-serif;
-font-weight: 200;
-font-style: normal;
-text-align: center;
-margin: 0 auto;
-grid-area: article;
-
+    width: 100vw;
+    min-height: auto;
+    background-color: black;
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    margin: 0 0;
+    grid-area: article;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 .nft-h1{
-
-margin: 0 auto 2rem auto;
-font-size: 5rem;
-padding-top: 5rem;
+        
+    color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    margin: 0rem auto 0rem auto;
+    font-size: 3rem;
+    grid-area: headline;
 }
 
 .nft-p{
-font-family: ador-hairline, sans-serif;
-font-weight: 200;
-font-style: italic;
-max-width: 85vw;
-margin: 0rem auto 2rem auto;
-font-size: 2rem;
-text-align: center;
+    max-width: 90vw;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style:italic;
+    margin: 0rem auto 2rem auto;
+    font-size: 1.2rem;
+    text-align: center;
+
 }
 
 
 
+/* ORIGINAL SIN */ 
 
+/* img AND text */
 
+.pawn-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    width: 90%;
+    height: auto;
+    margin: 5rem auto;
+}
 
-/* PAWN AND KING IMAGE */ 
+/* original sin text */
+
+.original-sin{
+font-size: 3rem;
+}
+
+/* img container */
 
 .img-cont{
-    max-width: 80vw;
-    max-height: 50vh;
+    width: 80vw;
+    height: 50vh;
     overflow: hidden;
-    margin: 30vh auto 10vh auto;
-    border-radius: 20%;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
+/* images inside */
+
 .img-inside{
     display: block;
-    width: 25vw;
-    height: 45vh;
+    max-width: 25rem;
+    min-height: 45vh;
     position: absolute;
     border-radius: 50%;
     border: none;
 }
+
+/* first animation */
 
 @keyframes example1 {
     from {transform: scale(0);}
@@ -217,7 +263,7 @@ text-align: center;
 }
 
 
-/* trying the inverse */ 
+/* second animation */ 
 
 
 @keyframes example2 {
@@ -258,85 +304,71 @@ text-align: center;
     
 }
 
+/* FIRST HR */
 
-/* NUMMER TEST */
+.first-hr{
+    width: 50%;
+    height: 0.1rem;
+    margin: 2rem auto;
+}
 
-/* NUMBER AND TITLE */
+
+/* FORBIDDEN NUMBER */
+
+/* picture and text */
 
 .numb-txt{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: italic;
-    width: 80%;
-    height: 80vh;
+    width: 90%;
+    height: auto;
     margin: 5rem auto;
-    text-align: center;
-    transform: translateX(4rem);
 }
+
+
+/* text */
 
 .forbidden-num{
-    margin: 7rem auto 0rem auto;
-    font-size: 6rem;
-    padding-right: 16rem;
+
+    font-size: 3rem;
+
 
 }
 
+/* image container */
+
 .nummer{
-    width: 100vw;
-    height: 60vh;
+    width: 80vw;
+    height: 50vh;
     overflow: hidden;
-    margin: 30vh auto 10vh auto;
-    border-radius: 20%;
-    background-color: transparent;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateX(0.5rem);
+ 
 }
 
 
+/* images inside */
+
 .img-nummer-ins{
     display: block;
-    width: 25vw;
-    height: 45vh;
+    max-width: 25rem;
+    min-height: 45vh;
     position: absolute;
     border-radius: 50%;
     border: none;
 }
 
-/* PAWN AND TITLE */
+ /* FOOTER */
 
-.pawn-txt{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    width: 100%;
-    height: auto;
-    margin: 5rem auto;
-    text-align: center;
-    transform: translateX(-4rem);
-}
-
-.original-sin{
-    margin: 7rem auto 0rem auto;
-    font-size: 6rem;
-
-}
-
-
-
-
-/* FOOTER */
-
-.footer{
+ .footer{
   
     width: 100vw;
     max-height: 20vh;
