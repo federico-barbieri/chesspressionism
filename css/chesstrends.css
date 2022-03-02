@@ -235,6 +235,8 @@ a:visited{
     color: white;
    }
 
+  
+
    /* FOOTER */
 
 .footer{
@@ -491,11 +493,12 @@ nav{
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 100vh 80vh 80vh 20vh;
+        grid-template-rows: 100vh 80vh 80vh 80vh 20vh;
         grid-template-areas: 
         "header"
         "cheese"
         "martini"
+        "coming"
         "footer";
         
         overflow: hidden;
@@ -666,6 +669,48 @@ nav{
     color: white;
    }
 
+   /* COMING SOON ARTICLE */
+
+.nft-art{
+    width: 100vw;
+    min-height: 80vh;
+    background-color: white;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    margin: 0 0;
+    grid-area: coming;
+ 
+}
+
+.nft-h2{
+    
+    margin: 0 auto 2rem auto;
+    font-size: 5rem;
+   padding-top: 10rem;
+}
+
+.nft-p{
+    max-width: 70vw;
+    margin: 0rem auto 2rem auto;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.nft-btn{
+
+    font-size: 1.8rem;
+    font-family: ador-hairline, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 2rem auto 1rem auto;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    color: black;
+   }
 
 
   /* FOOTER */
@@ -675,7 +720,7 @@ nav{
     width: 100vw;
     max-height: 20vh;
     margin: 0rem 0;
-    background-color: white;
+    background-color: black;
     font-family: ador-hairline, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -685,7 +730,7 @@ nav{
     justify-content: center;
     grid-area: footer;
     font-size: 1.5rem;
-    color: black;
+    color: white;
 }
 
 .rights-footer{
