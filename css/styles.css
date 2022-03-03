@@ -182,6 +182,10 @@ transform: translateX(-1rem);
     margin: 2rem auto;
 }
 
+.read-more-dictionary-btn:hover{
+  cursor: pointer;
+}
+
 
 /* CHESSOTERIC ARTICLE */
 
@@ -216,19 +220,18 @@ transform: translateX(-1rem);
     text-align: left;
 }
 
+.read-more-shannon-btn{
+    max-width: 40vw;
+    max-height: 10vh;  
+    margin: 2rem auto;
+}
 
-.shannonn-btn{
+.read-more-shannon-btn:hover{
+  cursor: pointer;
+}
 
-    font-size: 1.5rem;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin: 2rem auto 5rem auto;
-    background-color: transparent;
-    padding: 1rem 2rem;
-    color: white;
-    border: 1px solid white;
-   }
+
+
 
 /* CHESSTRENDS ARTICLE */
 
@@ -263,18 +266,15 @@ transform: translateX(-1rem);
     text-align: left;
 }
 
-.trendss-btn{
+.read-more-cheese-btn{
+    max-width: 40vw;
+    max-height: 10vh;  
+    margin: 2rem auto;
+}
 
-    font-size: 1.5rem;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin: 2rem auto 5rem auto;
-    background-color: transparent;
-    padding: 1rem 2rem;
-    color: black;
-    border: 1px solid black;
-   }
+.read-more-cheese-btn:hover{
+  cursor: pointer;
+}
 
 /* FOOTER */
 
