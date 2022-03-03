@@ -1000,6 +1000,7 @@ nav{
     width: 60vw;
     height: 50vh;
     margin: 5rem auto;
+    transform: translateX(0.5rem);
 }
 
 
@@ -1015,7 +1016,7 @@ nav{
 /* image container */
 
 .nummer{
-    width: 66.5vw;
+    width: 70vw;
     height: 50vh;
     overflow: hidden;
     margin: 2rem auto 2rem auto;
