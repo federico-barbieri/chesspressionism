@@ -366,6 +366,18 @@ font-size: 3rem;
     border: none;
 }
 
+
+.back-btn{
+    max-width: 25vw;
+    max-height: 10vh;
+    margin: 8rem auto;
+}
+
+.back-btn:hover{
+    cursor: pointer;
+}
+
+
  /* FOOTER */
 
  .footer{

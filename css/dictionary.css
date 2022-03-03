@@ -167,6 +167,34 @@ a:visited{
     text-align: left;
 }
 
+.btns{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8rem auto;
+}
+
+.back-btn{
+    max-width: 25vw;
+    max-height: 10vh;
+}
+
+.back-btn:hover{
+    cursor: pointer;
+}
+
+.next-article-btn{
+    max-width: 50vw;
+    max-height: 10vh;
+}
+
+.next-article-btn:hover{
+cursor: pointer;
+}
+
 
 
 
