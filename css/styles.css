@@ -303,9 +303,12 @@ transform: translateX(-1rem);
     color: white;
 }
 
-.rights-footer{
-    font-size: 1rem;
+.footer-img{
+    max-width: 40vw;
+    max-height: 10vh;
 }
+
+
 
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */

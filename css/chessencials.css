@@ -254,9 +254,12 @@ a:visited{
     color: black;
 }
 
-.rights-footer{
-    font-size: 1rem;
+.footer-img{
+    max-width: 40vw;
+    max-height: 10vh;
 }
+
+
 
 
 /* MEDIA QUERIES */
@@ -469,9 +472,7 @@ nav{
     color: black;
 }
 
-.rights-footer{
-    font-size: 1rem;
-}
+
 
 }
 
@@ -684,8 +685,6 @@ nav{
     color: black;
 }
 
-.rights-footer{
-    font-size: 1rem;
-}
+
 
 }
