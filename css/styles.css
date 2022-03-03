@@ -174,21 +174,14 @@ transform: translateX(-1rem);
     margin: 0rem auto 2rem auto;
     font-size: 1rem;
     text-align: left;
-    
 }
 
-.dictionaryy-btn{
+.read-more-dictionary-btn{
+    max-width: 40vw;
+    max-height: 10vh;  
+    margin: 2rem auto;
+}
 
-    font-size: 1.5rem;
-    font-family: ador-hairline, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    margin: 2rem auto 5rem auto;
-    background-color: transparent;
-    padding: 1rem 2rem;
-    border: 1px solid black;
-    color: black;
-   }
 
 /* CHESSOTERIC ARTICLE */
 
